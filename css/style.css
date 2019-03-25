@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,500');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+.fluid-img{
+    width: 100%;
+    max-width: 100%;
+}
+
+/* =======  Nav
+ =============================================== */
+
+.container-fluid_top {
+    background: url("../i/bg_top.jpg") no-repeat center;
+    background-size: cover;
+    padding-bottom: 45px;
+}
+.top {
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 240px;
+}
+.logo {
+    background: url("../i/logo.png");
+    width: 109px;
+    height: 18px;
+    text-indent: -9999px;
+}
+.nav {
+    margin-right: 20px;
+    flex-basis: 55%;
+    margin-top: 2px;
+}
+.nav__list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+
+     }
+.nav__link {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+
+
+}
+/* =======  info
+ =============================================== */
+.inform__title{
+    text-align: center;
+    font-size: 48px;
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.line {
+    display: block;
+    margin: auto;
+    width: 86px;
+    border: 2px solid white;
+    margin-bottom: 44px;
+}
+.text__box{
+    margin-bottom: 252px;
+}
+.inform__text {
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+
+}
+.img{
+    width: 92px;
+    height: 92px;
+    margin: auto;
+    cursor: pointer;
+}
+/* ======= social
+ =============================================== */
+.container-fluid_bottom {
+    background: url("../i/bg_bottom.jpg")no-repeat center;
+    background-size: cover;
+    padding: 119px 0;
+}
+.social__title {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 74px;
+}
+.line_bottom {
+    margin-bottom: 70px;
+}
+.social-ico {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 25px;
+    margin-left: 420px;
+    margin-right: 420px;
+    margin-bottom: 65px;
+}
+.fab {
+    display: block;
+    flex-basis: 14.6666%;
+    color: white;
+}
+.forms-action {
+    display: block;
+    margin: auto;
+    padding: 0 200px;
+   }
+.forms-action__name {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+
+}
+
+.form-group_name {
+    flex-basis: 47%;
+}
+.form-control {
+
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #afafaf;
+    font-family: Ubuntu, sans-serif;
+    color: #afafaf;
+    font-size: 18px;
+    line-height: 40px;
+    font-style: italic;
+    outline: none;
+}
+.form-control_message {
+    margin-bottom: 50px;
+}
+.btn {
+    display: block;
+    background-color: transparent;
+    font-size: 24px;
+    margin: auto;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px 50px;
+    cursor: pointer;
+}
