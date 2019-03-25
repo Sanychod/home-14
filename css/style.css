@@ -146,6 +146,12 @@ body {
     font-style: italic;
     outline: none;
 }
+.form-group_name {
+    margin-right: 1rem;
+}
+.form-group_name:last-of-type {
+    margin-right: 0;
+}
 .form-control_message {
     margin-bottom: 50px;
 }
